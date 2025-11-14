@@ -1,10 +1,12 @@
-@import "tailwindcss/preflight";
-@tailwind utilities;
+@import "tailwindcss";
 
-:root {
-  --charcoal: #232323;
-  --white: #fff;
-  --orange: #ff7b00;
+@theme {
+  --color-charcoal: #232323;
+  --color-orange: #ff7b00;
+
+  --font-family-poppins: var(--font-poppins), sans-serif;
+  --font-family-inter: var(--font-inter), sans-serif;
+  --font-family-montserrat: var(--font-montserrat), sans-serif;
 }
 
 body {
